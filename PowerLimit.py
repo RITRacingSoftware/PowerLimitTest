@@ -8,11 +8,11 @@ from fileinput import filename
 import fdplib.darab as darab
 import numpy as np
 
-FILENAME = "F30_5_55_23_energy_check.txt"
+FILENAME = "F30_5_55_23_energy_check.txt"  # CHANGE THIS
 
 
 """The maximum wattage allowed"""
-LIMITWATTS = 76000  # 80000
+LIMITWATTS = 80000
 
 """The step size in the .txt file exported from Windarab"""
 STEP_SIZE = 0.001
